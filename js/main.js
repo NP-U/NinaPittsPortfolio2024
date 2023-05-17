@@ -293,7 +293,7 @@
                     },
                     gmaps: {
                       index: '//maps.google.',
-                      src: '%id%&output=embed'
+                      src: 'https://www.google.com/maps/d/u/0/viewer?mid=1jUNZxfs16GAQDFg8nPzDN_O0GAg&hl=en_US&ll=40.764032717953576%2C-111.89707600000001&z=15'
                     }
                 },
 
@@ -330,10 +330,10 @@
 
         //Google Maps
         $("#map").googleMap({
-            zoom: 16 // Google Map ZOOM. You can change this value
+            zoom: 19 // Google Map ZOOM. You can change this value
         });
         $("#map").addMarker({
-            address: "Salt Lake City, UT, USA", // Your Address. Change it
+            address: "Salt Lake City, Utah,  USA", // Your Address. Change it
         });
 
 
