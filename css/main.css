@@ -1270,16 +1270,16 @@ blockquote {
 .skills-info.skills-second-style h4 {
   font-size: 13px;
   line-height: 1.1em;
-  position: relative;
-  float: left;
+  position: static;
+  float: none;
   margin: 0 0 4px;
 }
 
 .skills-second-style .skill-value {
   font-size: 11px;
   line-height: 1.1em;
-  position: relative;
-  float: right;
+  position: static;
+  float: none;
   margin: 0 0 4px;
   color: #aaa;
 }
@@ -1293,7 +1293,7 @@ blockquote {
 }
 
 .skills-second-style .skill-container {
-  position: relative;
+  position: static;
   background-color: transparent;
   border: 1px solid #c06189;
   -moz-border-radius: 8px;
